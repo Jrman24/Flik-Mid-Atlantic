@@ -1,0 +1,111 @@
+
+/* Slideshow */
+.metaslider {
+  z-index: 0;
+  max-width: 100%;
+  overflow: hidden; }
+
+ul.slides {
+ /* height: 540px;
+  overflow: hidden;*/}
+  @media screen and (max-width: 1023px) {
+    ul.slides {
+      height: auto;
+      max-height: 400px;
+      overflow: visible; } }
+
+.metaslider .slides img {
+  height: auto;
+  min-height: 100% !important;
+  width: auto !important;
+  min-width: 100%;
+  max-width: none !important;
+  display: block;
+  float: right;
+  position: absolute; }
+  @media screen and (max-width: 1023px) {
+    .metaslider .slides img {
+      position: relative;
+      min-height: 150px !important;
+      max-width: 100% !important;
+      width: auto !important;
+	 } 
+	}
+
+.metaslider .caption-wrap {
+	  position: relative !important;
+	  top: 0;
+	  left: 0;
+	  background: transparent !important;
+	  color: white;
+	  margin: 0 auto !important;
+	  width: 85% !important;
+	  max-width: 1400px !important;
+	  display: block;
+	  line-height: 1.25em;
+	  height: 100%;
+	  padding: 3.5% 0px 30px 0px;
+	  opacity: 1 !important;
+	  font-weight: normal; 
+	}
+ 
+	@media screen and (max-width: 1023px) {
+		.metaslider .caption-wrap {
+			clear: both;
+			padding: 0px; 
+			bottom: 35px !important;
+			top: auto !important;
+			max-width: 90% !important;
+	  }
+	}
+	  
+  .metaslider .caption-wrap .caption {
+		max-width: 25%;
+		background: #545759 !important;
+		padding: 40px 40px 50px 40px !important;		
+		font-size: 18px !important; 
+		border-bottom: 12px solid #c1af37;
+		-webkit-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.4);
+		box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.4);
+	}
+	@media screen and (max-width: 1300px) {
+		.metaslider .caption-wrap .caption {
+			max-width: 33%;
+		}
+	}
+	@media screen and (max-width: 1023px) {
+		.metaslider .caption-wrap .caption {
+			max-width: 100%;
+			text-align: center;
+		}
+	}
+	.metaslider .caption-wrap h2 {
+		text-transform: uppercase;
+		font-size: 30px;
+		line-height: 36px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+  .metaslider .caption-wrap a.learn-more {
+		margin: 20px 0px;
+		display: table;
+		
+		@media screen and (max-width: 1023px) {
+			margin: 20px auto;
+		}
+	}
+@media screen and (min-width: 1500px) {	
+	.metaslider .flex-control-nav {
+		padding-bottom: 15px !important;
+	}
+}
+.metaslider	.flex-control-paging li a {
+    background: #eee;
+    background: rgba(204, 203, 203, 0.7) !important;
+}
+.metaslider .flex-control-paging li a.flex-active,
+.metaslider .flex-control-paging li a:hover {
+    background: #c1af37 !important;
+    cursor: default;
+}

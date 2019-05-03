@@ -1,0 +1,64 @@
+/* Social Media Menu */
+.social-media-menu {
+    float: right;	
+	font-family: 'FontAwesome';
+	padding: 0;
+	margin: 0;
+	
+	ul {
+		list-style: none;
+		text-align: center;
+		margin: 0px;
+	}
+
+	li {
+		display: inline-block;
+		text-align: center;
+	}
+
+	a {
+		display: inline-block;
+		height: 40px;
+		position: relative;
+		width: 45px;
+		color: brown;
+		padding-top: 45px;
+		overflow: hidden;
+		
+		&hover {
+			color: #da2037;
+		}
+	}		
+
+	a:before {
+		content: "\f415";
+		font-size: 24px;
+		position: absolute;
+		top: 0;
+		left: 7px;
+		font-family: FontAwesome;
+	}
+	
+	a[href*="facebook.com"]:before { content: "\f09a"; }
+	
+	a[href*="plus.google.com"]:before { content: "\f1a0";}
+
+	a[href*="instagram.com"]:before { content: "\f16d"; }
+	
+	a[href*="linkedin.com"]:before { content: "\f0e1"; }
+	
+	a[href*="twitter.com"]:before { content: "\f099"; }
+	
+	a[href*="vimeo.com"]:before { content: "\f27d"; }
+	
+	a[href*="youtube.com"]:before { content: "\f16a"; }
+
+}
+
+
+.site-footer .social-media-menu a {
+	color: #fff;
+}
+
+
+

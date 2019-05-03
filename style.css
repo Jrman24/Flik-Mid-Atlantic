@@ -1,0 +1,6008 @@
+@charset "UTF-8";
+/*
+Theme Name: Flik
+Author: Marstudio	
+Author URI: http://marstudio.com/
+Description: A custom theme for Flik Mid Atlantic Group.
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: flik
+Tags: one-column
+
+This theme is licensed under the GPL.
+Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+# Base (Holds standard normalize styling and general selector styles: body, h1, p, a, etc.)
+--------------------------------------------------------------*/
+/*Variables*/
+/* Colors */
+/* Typography */
+/* Custom Colors */
+/* Responsive */
+/* Other */
+@import url("//hello.myfonts.net/count/376f44");
+/* line 49, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/variables/_variables.scss */
+.center {
+  text-align: center;
+}
+
+/* Learn-more */
+/* line 54, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/variables/_variables.scss */
+.learn-more {
+  padding: 13px 45px 13px 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 86% center;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 66, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/variables/_variables.scss */
+.learn-more:hover, .learn-more:focus, .learn-more:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Bootstrap*/
+/*!
+ * Bootstrap v3.3.4 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=4dc629f16e417935e4bb)
+ * Config saved to config.json and https://gist.github.com/4dc629f16e417935e4bb
+ */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+body {
+  margin: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+img {
+  border: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+button {
+  overflow: visible;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+input {
+  line-height: normal;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+input[type="checkbox"], input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+td, th {
+  padding: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+html {
+  font-size: 18px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+a:hover, a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+figure {
+  margin: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.img-rounded {
+  border-radius: 6px;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+[role="button"] {
+  cursor: pointer;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .container {
+    width: 1170px;
+  }
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-11 {
+  width: 91.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-7 {
+  width: 58.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-5 {
+  width: 41.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-2 {
+  width: 16.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-11 {
+  right: 91.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-10 {
+  right: 83.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-8 {
+  right: 66.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-7 {
+  right: 58.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-5 {
+  right: 41.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-4 {
+  right: 33.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-2 {
+  right: 16.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-1 {
+  right: 8.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-pull-0 {
+  right: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-12 {
+  left: 100%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-11 {
+  left: 91.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-10 {
+  left: 83.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-9 {
+  left: 75%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-8 {
+  left: 66.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-7 {
+  left: 58.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-6 {
+  left: 50%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-5 {
+  left: 41.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-4 {
+  left: 33.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-3 {
+  left: 25%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-2 {
+  left: 16.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-1 {
+  left: 8.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-push-0 {
+  left: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.col-xs-offset-0 {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-12 {
+    width: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-9 {
+    width: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-6 {
+    width: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-3 {
+    width: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-pull-0 {
+    right: auto;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-12 {
+    left: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-push-0 {
+    left: auto;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-9 {
+    width: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-6 {
+    width: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-3 {
+    width: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-12 {
+    right: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-pull-0 {
+    right: auto;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-12 {
+    left: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-9 {
+    left: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-6 {
+    left: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-3 {
+    left: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-push-0 {
+    left: auto;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-12 {
+    width: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-9 {
+    width: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-6 {
+    width: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-3 {
+    width: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-pull-0 {
+    right: auto;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-12 {
+    left: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-push-0 {
+    left: auto;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.clearfix:after, .container:after, .container-fluid:after, .row:after {
+  clear: both;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.pull-right {
+  float: right !important;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.pull-left {
+  float: left !important;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.show {
+  display: block !important;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.hidden {
+  display: none !important;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/bootstrap/_bootstrap.scss */
+.affix {
+  position: fixed;
+}
+
+/*Typography*/
+/**
+ * @license
+ * MyFonts Webfont Build ID 3632964, 2018-08-31T12:51:27-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirLTPro-Book by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-45-book/
+ * 
+ * Webfont: AvenirLTPro-Medium by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/pro-65-medium/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3632964
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 Monotype GmbH. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'AvenirLTPro-Book';
+  src: url("webfonts/376F44_0_0.eot");
+  src: url("webfonts/376F44_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/376F44_0_0.woff2") format("woff2"), url("webfonts/376F44_0_0.woff") format("woff"), url("webfonts/376F44_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'AvenirLTPro-Medium';
+  src: url("webfonts/376F44_1_0.eot");
+  src: url("webfonts/376F44_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/376F44_1_0.woff2") format("woff2"), url("webfonts/376F44_1_0.woff") format("woff"), url("webfonts/376F44_1_0.ttf") format("truetype");
+}
+
+/* line 38, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+button,
+input,
+select,
+textarea {
+  color: #545759;
+  /*font-family: $font__main; */
+  font-family: 'AvenirLTPro-Medium';
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/*--------------------------------------------------------------
+## Headings
+--------------------------------------------------------------*/
+/* line 53, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+}
+
+/* line 60, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+/* line 67, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+h4 {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+## Copy
+--------------------------------------------------------------*/
+/* line 75, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+p {
+  margin-bottom: 1.5em;
+}
+
+/* line 79, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+dfn, cite, em, i {
+  font-style: italic;
+}
+
+/* line 83, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+blockquote {
+  margin: 0 1.5em;
+}
+
+/* line 87, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+address {
+  margin: 0 0 1.5em;
+}
+
+/* line 91, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+/* line 102, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+code, kbd, tt, var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+/* line 107, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+/* line 112, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+/* line 117, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/typography/_typography.scss */
+big {
+  font-size: 125%;
+}
+
+/*	@import "base/typography/font_awesome"; */
+/*Standard*/
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 7, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 11, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 26, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 34, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 39, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 44, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 48, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 53, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 57, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 62, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 66, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 71, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 76, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 80, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 88, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 92, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 96, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 100, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 104, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 108, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 113, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 117, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 125, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 135, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/* line 139, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 144, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 152, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 157, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 163, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/* line 167, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 173, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 178, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 183, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 188, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 194, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 199, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 203, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 207, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 212, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* Text meant only for screen readers. */
+/* line 2, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_accessibility.scss */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+/* line 9, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_accessibility.scss */
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_alignments.scss */
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+/* line 7, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_alignments.scss */
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+/* line 13, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_alignments.scss */
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_clearings.scss */
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+  content: "";
+  display: table;
+}
+
+/* line 16, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_clearings.scss */
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+  clear: both;
+}
+
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+/* line 2, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_infinite-scroll.scss */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+  /* Theme Footer (when set to scrolling) */
+  display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+/* line 8, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/standard/_infinite-scroll.scss */
+.infinity-end.neverending .site-footer {
+  display: block;
+}
+
+/*Elements (Body, ul, li and custom Classes) */
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 4, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+body {
+  background: #fff;
+  /* Fallback for when there is no custom background color defined. */
+  overflow-x: hidden;
+  font-family: "AvenirLTPro-Book", sans-serif;
+  font-size: 18px;
+  color: #545759;
+}
+
+/* line 18, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+blockquote, q {
+  quotes: "" "";
+}
+
+/* line 21, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 27, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+/* Lists */
+/* line 35, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+ul, ol {
+  margin: 0 0 1.5em 20px;
+}
+
+/* line 39, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+ul {
+  list-style: disc;
+  padding: 0;
+}
+
+/* line 44, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 48, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+/* line 54, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 58, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+/* line 62, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+/* line 67, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+a {
+  color: #545759;
+  text-decoration: none !important;
+}
+
+/* line 71, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+a:visited {
+  color: inherit;
+}
+
+/* line 74, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+a:hover, a:focus, a:active {
+  color: #545759;
+}
+
+/* line 79, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+a:focus {
+  outline: 0;
+}
+
+/* line 82, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* Tables */
+/* line 88, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_elements.scss */
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+/* Color Classes */
+/* line 3, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.blue {
+  color: #0d607b;
+}
+
+/* line 6, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.dark_blue {
+  color: #262d49 !important;
+}
+
+/* line 9, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.bg_dark_blue {
+  background-color: #262d49 !important;
+}
+
+/*typography*/
+/* line 15, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.bold-inline {
+  display: inline !important;
+  font-weight: 900;
+}
+
+/* Positioning and spacing */
+/* line 22, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.no-margin {
+  margin: 0px;
+}
+
+/* line 25, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.full-height {
+  height: 100%;
+}
+
+/* line 28, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.center {
+  text-align: center;
+}
+
+/* line 31, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.background-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 40, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.block {
+  display: block;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 40, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+  .block {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+/* line 48, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.drop-shadow {
+  -webkit-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.3);
+}
+
+/* line 54, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+#colophon .container p.small-text {
+  font-size: 14px !important;
+}
+
+/* Mobile */
+/* line 59, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.mobile-show {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 59, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+  .mobile-show {
+    display: block !important;
+  }
+}
+
+/* line 66, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+.mobile-hide {
+  display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 66, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/base/elements/_classes.scss */
+  .mobile-hide {
+    display: none !important;
+  }
+}
+
+/*--------------------------------------------------------------
+# Components (Repeating modules.)	
+--------------------------------------------------------------*/
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_asides.scss */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+  display: none;
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_buttons.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  background: #e6e6e6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: .6em 1em .4em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* line 16, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_buttons.scss */
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  border-color: #ccc #bbb #aaa;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+}
+
+/* line 21, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_buttons.scss */
+button:active, button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+  border-color: #aaa #bbb #bbb;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* line 28, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_buttons.scss */
+.btn-yellow {
+  display: inline-block;
+  background: #c0ae36;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 36px;
+  text-align: center;
+  color: #ffffff !important;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  transition: background .2s ease-in-out;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 28, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_buttons.scss */
+  .btn-yellow {
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+/* line 46, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_buttons.scss */
+.btn-yellow:hover {
+  text-decoration: none;
+  background: #ac9c30;
+}
+
+/* Fields */
+/* line 2, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* line 13, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  color: #111;
+}
+
+/* line 18, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+  padding: 3px;
+}
+
+/* line 26, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+textarea {
+  padding-left: 3px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 33, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+  .site-content label,
+  .wpcf7 {
+    text-align: left;
+  }
+}
+
+/**Contact Form7**/
+/* line 41, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 .container-fluid {
+  padding: 0;
+}
+
+/* line 44, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 [class*='col-'] {
+  margin-bottom: 10px;
+}
+
+/* line 47, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 .col-sm-12 {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 47, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+  .wpcf7 .col-sm-12 {
+    text-align: left !important;
+    padding-right: 0px;
+  }
+}
+
+/* line 54, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 .col-md-6 {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 54, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+  .wpcf7 .col-md-6 {
+    padding-right: 0;
+  }
+}
+
+/* line 60, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 label {
+  color: #c0ae36;
+  font-size: 24px;
+}
+
+/* line 64, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 input, .wpcf7 textarea {
+  width: 100%;
+  border: 1px solid #989a9b;
+  border-radius: 0;
+  margin-bottom: 20px !important;
+  padding: 7px 5px 6px 5px;
+}
+
+/* line 71, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 input[type="checkbox"],
+.wpcf7 input[type="radio"] {
+  width: auto !important;
+  height: auto !important;
+}
+
+/* line 76, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="password"],
+.wpcf7 input[type="search"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="date"] {
+  height: 37px !important;
+}
+
+/* line 85, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 .wpcf7-submit {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  box-shadow: none !important;
+  background: #c0ae36;
+  padding: 15px 36px !important;
+  width: auto !important;
+  border: none;
+  border-radius: 0;
+  transition: background .2s ease-in-out;
+  text-shadow: none !important;
+}
+
+/* line 98, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 .wpcf7-submit:hover {
+  text-decoration: none;
+  background: #ac9c30;
+}
+
+/* line 102, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 .wpcf7-submit:focus {
+  outline: 0;
+}
+
+/* line 106, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 .tel {
+  padding-right: 0;
+}
+
+/* line 109, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.wpcf7 .wpcf7-list-item {
+  margin: 0px 20px 0px 0px;
+}
+
+/* line 113, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+.form-content {
+  padding: 0;
+  margin-bottom: 110px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 113, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+  .form-content {
+    margin-bottom: 20px;
+  }
+}
+
+/*Form Placeholder*/
+/* line 121, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #989a9b !important;
+  opacity: 1;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+  /* line 121, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+  ::-webkit-input-placeholder {
+    font-size: 11px;
+  }
+}
+
+/* line 130, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #989a9b !important;
+  opacity: 1;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+  /* line 130, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+  :-moz-placeholder {
+    font-size: 11px;
+  }
+}
+
+/* line 139, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #989a9b !important;
+  opacity: 1;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+  /* line 139, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+  ::-moz-placeholder {
+    font-size: 11px;
+  }
+}
+
+/* line 148, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #989a9b !important;
+  opacity: 1;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+  /* line 148, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_forms.scss */
+  :-ms-input-placeholder {
+    font-size: 11px;
+  }
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_widgets.scss */
+.widget {
+  margin: 0 0 1.5em;
+  /* Make sure select elements fit in widgets. */
+}
+
+/* line 5, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_widgets.scss */
+.widget select {
+  max-width: 100%;
+}
+
+/* Search widget. */
+/* line 11, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_widgets.scss */
+.widget_search .search-submit {
+  display: none;
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+/* line 11, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+/* line 20, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+/* line 24, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 28, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+/* line 33, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.wp-caption-text {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+/* line 40, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery {
+  margin-bottom: 1.5em;
+}
+
+/* line 44, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+/* line 50, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+/* line 54, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+
+/* line 58, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+
+/* line 62, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+
+/* line 66, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+
+/* line 70, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+
+/* line 74, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+
+/* line 78, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+/* line 83, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_media.scss */
+.gallery-caption {
+  display: block;
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_comments.scss */
+.comment-content a {
+  word-wrap: break-word;
+}
+
+/* line 4, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/components/_comments.scss */
+.bypostauthor {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation {
+  color: yellow;
+  clear: both;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+/* line 8, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+/* line 14, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  float: left;
+  position: absolute;
+  top: 54px;
+  left: -999em;
+  z-index: 99999;
+  background: #fff;
+  padding: 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1025px) {
+  /* line 14, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .main-navigation ul ul {
+    top: 53.4px;
+  }
+}
+
+/* line 27, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul a {
+  font-weight: normal;
+  color: #ffffff;
+  transition: all .2s ease-in;
+}
+
+/* line 31, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul a:hover, .main-navigation ul ul a:focus {
+  color: #c0ae36;
+}
+
+/* line 36, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul ul {
+  left: -999em;
+  top: 0;
+}
+
+/* line 42, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul li {
+  padding: 10px 15px;
+  background: #545759;
+  transition: all .2s ease-in;
+  border-bottom: 1px solid #c0ae36;
+}
+
+/* line 47, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul li:last-child {
+  border-bottom: none;
+}
+
+/* line 54, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+  left: 100%;
+}
+
+/* line 59, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul li ul li {
+  border-bottom: none;
+}
+
+/* line 64, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul li a {
+  color: #FFFFFF;
+}
+
+/* line 67, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul li:after {
+  display: none !important;
+}
+
+/* line 72, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul a {
+  width: 200px;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* line 78, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul ul a a:hover,
+.main-navigation ul ul a a.focus {
+  text-decoration: none;
+}
+
+/* line 85, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+  left: auto;
+}
+
+/* line 90, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation li {
+  display: inline-block;
+  position: relative;
+  padding: 0px 0px 0px 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 90, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .main-navigation li {
+    padding: 0px 0px 0px 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 90, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .main-navigation li {
+    float: none;
+  }
+}
+
+/* line 102, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation li:hover:after {
+  display: block;
+}
+
+/* line 109, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation li:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #c0ae36;
+  display: none;
+  margin-top: 20px;
+  transition: all .2s ease-in-out;
+}
+
+/* line 122, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation li li:after {
+  display: none !important;
+}
+
+/* line 129, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation .current_page_item:after, .main-navigation .current_page_parent:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #c0ae36;
+  display: block;
+  margin-top: 20px;
+  transition: all .2s ease-in-out;
+}
+
+/* line 139, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation .current_page_item li:after, .main-navigation .current_page_parent li:after {
+  display: none !important;
+}
+
+/* line 145, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation a {
+  display: block;
+  text-decoration: none;
+  color: #545759;
+  text-transform: capitalize;
+  font-family: 'AvenirLTPro-Medium', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* line 154, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation a:hover, .main-navigation a:focus {
+  text-decoration: none;
+  color: #c0ae36;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 145, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .main-navigation a {
+    font-size: 20px;
+  }
+}
+
+/* line 165, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation .current_page_item ul li a,
+.main-navigation .current-menu-item ul li a,
+.main-navigation .current_page_item u li a {
+  color: #FFFFFF;
+}
+
+/* line 170, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current_page_item a,
+.main-navigation ul .current_page_item a,
+.main-navigation ul .current-menu-item a,
+.main-navigation ul .current_page_item a {
+  color: #c0ae36;
+}
+
+/* line 178, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation .current_page_item > a:hover, .main-navigation .current_page_item > a:focus,
+.main-navigation .current-menu-item > a:hover,
+.main-navigation .current-menu-item > a:focus,
+.main-navigation .current_page_ancestor > a:hover,
+.main-navigation .current_page_ancestor > a:focus,
+.main-navigation .current_page_item a:hover,
+.main-navigation .current_page_item a:focus,
+.main-navigation ul .current_page_item a:hover,
+.main-navigation ul .current_page_item a:focus,
+.main-navigation ul .current-menu-item a:hover,
+.main-navigation ul .current-menu-item a:focus,
+.main-navigation ul .current_page_item a:hover,
+.main-navigation ul .current_page_item a:focus {
+  color: #c0ae36;
+}
+
+/* Small menu. */
+/* line 188, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block;
+}
+
+/* line 192, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.menu-toggle:after {
+  content: '\f0c9';
+  font-family: 'FontAwesome';
+}
+
+/* line 196, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.menu-toggle {
+  margin-bottom: 30px;
+  float: right;
+  color: #fff;
+  border-color: #8c3b67;
+  background: #8c3b67;
+  border-radius: 0px;
+  padding: 6px 15px;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* line 207, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.menu-toggle:hover {
+  background: #00a1b0;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* line 213, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation.toggled ul {
+  /* Show Submenu */
+}
+
+/* line 214, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation.toggled ul ul {
+  left: auto;
+  position: relative;
+  top: auto;
+  display: none;
+}
+
+/* line 221, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation.toggled ul span.toggle-sub {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 229, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation.toggled ul span.toggle-sub:after {
+  display: inline-block;
+  font: normal normal normal 24px FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f067";
+  line-height: 20px;
+  margin-left: 10px;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+/* line 246, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation.toggled ul.subshow ul {
+  display: block;
+}
+
+/* line 250, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.main-navigation.toggled ul.subshow span.toggle-sub:after {
+  content: "\f068";
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 258, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .menu-toggle {
+    display: none;
+  }
+  /* line 261, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .main-navigation ul {
+    display: block;
+  }
+}
+
+/* line 270, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+
+/* line 275, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+/* line 280, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+/*Mobile Nav*/
+/* line 289, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu {
+  z-index: 6000;
+  padding: 0px 20px;
+  position: absolute;
+  opacity: 0;
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  height: -webkit-calc(100vh - 30px);
+  height: -moz-calc(100vh - 30px);
+  height: calc(100vh - 30px);
+  width: 50%;
+  color: #ffffff;
+  right: 0;
+  display: none;
+  top: 180px !important;
+  height: auto;
+}
+
+@media screen and (min-width: 1025px) {
+  /* line 289, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .side-bar-menu {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 289, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .side-bar-menu {
+    width: 100%;
+    top: 240px !important;
+  }
+}
+
+/* line 320, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu .current_page_item ul li a,
+.side-bar-menu .current-menu-item ul li a,
+.side-bar-menu .current_page_item u li a {
+  color: #FFFFFF !important;
+}
+
+/* line 325, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu .current_page_item > a,
+.side-bar-menu .current-menu-item > a,
+.side-bar-menu .current_page_ancestor > a,
+.side-bar-menu .current_page_item a,
+.side-bar-menu ul .current_page_item a,
+.side-bar-menu ul .current-menu-item a,
+.side-bar-menu ul .current_page_item a {
+  color: #c0ae36 !important;
+}
+
+/* line 333, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu .current_page_item > a:hover, .side-bar-menu .current_page_item > a:focus,
+.side-bar-menu .current-menu-item > a:hover,
+.side-bar-menu .current-menu-item > a:focus,
+.side-bar-menu .current_page_ancestor > a:hover,
+.side-bar-menu .current_page_ancestor > a:focus,
+.side-bar-menu .current_page_item a:hover,
+.side-bar-menu .current_page_item a:focus,
+.side-bar-menu ul .current_page_item a:hover,
+.side-bar-menu ul .current_page_item a:focus,
+.side-bar-menu ul .current-menu-item a:hover,
+.side-bar-menu ul .current-menu-item a:focus,
+.side-bar-menu ul .current_page_item a:hover,
+.side-bar-menu ul .current_page_item a:focus {
+  color: #c0ae36;
+}
+
+/* line 341, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu.toggle {
+  display: block;
+}
+
+/* line 345, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu li {
+  list-style: none;
+  border-bottom: 1px solid #c0ae36;
+  padding: 15px 0;
+  background: #545759;
+}
+
+/* line 350, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu li a {
+  font-size: 14px;
+  padding: 0px 10px;
+  text-decoration: none;
+  transition: .1s all;
+}
+
+/* line 356, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu li ul li {
+  padding: 10px 0px;
+}
+
+/* line 359, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu li ul ul li {
+  border-bottom: 0 !important;
+}
+
+/* line 364, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu li a:link,
+.side-bar-menu li a:visited,
+.side-bar-menu li a:active,
+.side-bar-menu li a:focus {
+  color: #ffffff;
+}
+
+/* line 370, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu > li:hover {
+  color: #ffffff;
+  background: #c0ae36;
+}
+
+/* line 375, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.menu-item-has-children {
+  position: relative;
+}
+
+/**Mobile  Menu**/
+/* line 379, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu .sub-menu,
+.side-bar-menu .sub-menu.open {
+  display: none;
+}
+
+/* line 383, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu .subshow .sub-menu {
+  display: block;
+  padding: 10px 0 0 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 387, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  #masthead .sub-menu li {
+    border-bottom: 0 !important;
+  }
+}
+
+/*Expanded Sub-Menu*/
+/* line 394, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+span.toggle-sub.expanded:after {
+  content: "";
+  left: 6px;
+  position: absolute;
+  display: inline-block;
+  font: normal normal normal 24px FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f068";
+}
+
+@media screen and (max-width: 992px) {
+  /* line 407, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  li.menu-item-has-children:before {
+    color: #de1e36;
+    content: "";
+    display: inline;
+    position: absolute;
+    right: 0;
+    display: block;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* line 420, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu ul span.toggle-sub {
+  position: absolute;
+  top: 16px;
+  right: 5px;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 428, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.side-bar-menu ul span.toggle-sub:after {
+  left: 6px;
+  position: absolute;
+  display: inline-block;
+  font: normal normal normal 24px FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f067";
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 440, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .main-navigation.toggled ul li span.toggle-sub {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    display: block;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* line 451, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.toggle {
+  opacity: 1;
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* line 459, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__icon, .navigation__icon::before, .navigation__icon::after {
+  width: 3rem;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+}
+
+/* line 465, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__icon {
+  position: relative;
+  margin-top: 32px;
+}
+
+/* line 470, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 476, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__button {
+  background-color: #fff;
+  height: 7rem;
+  width: 7rem;
+  position: absolute;
+  top: 70px;
+  right: 6rem;
+  z-index: 2000;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 476, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .navigation__button {
+    display: block;
+    height: 65px;
+    width: 65px;
+    right: 0;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 476, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+  .navigation__button {
+    top: auto;
+    left: 50%;
+    position: relative;
+  }
+}
+
+/* line 502, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__icon {
+  position: relative;
+  margin-top: 32px;
+}
+
+/* line 507, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__icon,
+.navigation__icon::before,
+.navigation__icon::after {
+  width: 3rem;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+}
+
+/* line 516, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__icon::before,
+.navigation__icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+/* line 525, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__icon::before {
+  top: -.8rem;
+}
+
+/* line 529, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__icon::after {
+  top: .8rem;
+}
+
+/* line 533, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__button:hover .navigation__icon::before {
+  top: -1rem;
+}
+
+/* line 537, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.navigation__button:hover .navigation__icon::after {
+  top: 1rem;
+}
+
+/*Hamburger Active*/
+/* line 542, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+label.navigation__button.active .navigation__icon {
+  background: transparent;
+}
+
+/* line 545, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+label.navigation__button.active .navigation__icon:before {
+  top: 0 !important;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+}
+
+/* line 552, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+label.navigation__button.active .navigation__icon:after {
+  top: 0 !important;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+}
+
+/* line 559, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menus.scss */
+.decorated-link {
+  text-decoration: underline !important;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  75% {
+    opacity: 0.5;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Footer Nav */
+/* line 3, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-footer.scss */
+#footer-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-footer.scss */
+#footer-menu ul ul.sub-menu {
+  display: none;
+}
+
+/* line 12, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-footer.scss */
+#footer-menu li > ul {
+  display: none;
+}
+
+/* line 16, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-footer.scss */
+#footer-menu li {
+  display: inline-block;
+  float: left;
+  min-height: 20px;
+}
+
+/* line 21, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-footer.scss */
+#footer-menu li a {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 27, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-footer.scss */
+#footer-menu li ahover {
+  text-decoration: none;
+  color: #00a1b0;
+}
+
+/* line 34, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-footer.scss */
+#footer-menu li:after {
+  content: ' / ';
+  display: inline-block;
+  padding: 0px 7px 0px 3px;
+  color: #00a1b0;
+  font-size: 16px;
+}
+
+/* line 42, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-footer.scss */
+#footer-menu li:last-of-type:after {
+  display: none;
+}
+
+/* Social Media Menu */
+/* line 2, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu {
+  float: right;
+  font-family: 'FontAwesome';
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu ul {
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+}
+
+/* line 14, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 19, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a {
+  display: inline-block;
+  height: 40px;
+  position: relative;
+  width: 45px;
+  color: brown;
+  padding-top: 45px;
+  overflow: hidden;
+}
+
+/* line 28, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu ahover {
+  color: #da2037;
+}
+
+/* line 33, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a:before {
+  content: "\f415";
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  font-family: FontAwesome;
+}
+
+/* line 42, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a[href*="facebook.com"]:before {
+  content: "\f09a";
+}
+
+/* line 44, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a[href*="plus.google.com"]:before {
+  content: "\f1a0";
+}
+
+/* line 46, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a[href*="instagram.com"]:before {
+  content: "\f16d";
+}
+
+/* line 48, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a[href*="linkedin.com"]:before {
+  content: "\f0e1";
+}
+
+/* line 50, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a[href*="twitter.com"]:before {
+  content: "\f099";
+}
+
+/* line 52, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a[href*="vimeo.com"]:before {
+  content: "\f27d";
+}
+
+/* line 54, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.social-media-menu a[href*="youtube.com"]:before {
+  content: "\f16a";
+}
+
+/* line 59, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/navigation/_menu-social-media.scss */
+.site-footer .social-media-menu a {
+  color: #fff;
+}
+
+/*@import "navigation/menu-sidebar"; If applicable */
+/*--------------------------------------------------------------
+# Layout (General and specific page styles.)	
+--------------------------------------------------------------*/
+/* Slideshow */
+/* line 3, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+.metaslider {
+  z-index: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* line 8, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+ul.slides {
+  /* height: 540px;
+  overflow: hidden;*/
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 12, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+  ul.slides {
+    height: auto;
+    max-height: 400px;
+    overflow: visible;
+  }
+}
+
+/* line 17, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+.metaslider .slides img {
+  height: auto;
+  min-height: 100% !important;
+  width: auto !important;
+  min-width: 100%;
+  max-width: none !important;
+  display: block;
+  float: right;
+  position: absolute;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 27, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+  .metaslider .slides img {
+    position: relative;
+    min-height: 150px !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+
+/* line 35, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+.metaslider .caption-wrap {
+  position: relative !important;
+  top: 0;
+  left: 0;
+  background: transparent !important;
+  color: white;
+  margin: 0 auto !important;
+  width: 85% !important;
+  max-width: 1400px !important;
+  display: block;
+  line-height: 1.25em;
+  height: 100%;
+  padding: 3.5% 0px 30px 0px;
+  opacity: 1 !important;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 53, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+  .metaslider .caption-wrap {
+    clear: both;
+    padding: 0px;
+    bottom: 35px !important;
+    top: auto !important;
+    max-width: 90% !important;
+  }
+}
+
+/* line 62, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+.metaslider .caption-wrap .caption {
+  max-width: 25%;
+  background: #545759 !important;
+  padding: 40px 40px 50px 40px !important;
+  font-size: 18px !important;
+  border-bottom: 12px solid #c1af37;
+  -webkit-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.4);
+  box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 1300px) {
+  /* line 73, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+  .metaslider .caption-wrap .caption {
+    max-width: 33%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 78, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+  .metaslider .caption-wrap .caption {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+/* line 83, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+.metaslider .caption-wrap h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/* line 90, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+.metaslider .caption-wrap a.learn-more {
+  margin: 20px 0px;
+  display: table;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 90, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+  .metaslider .caption-wrap a.learn-more {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  /* line 99, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+  .metaslider .flex-control-nav {
+    padding-bottom: 15px !important;
+  }
+}
+
+/* line 103, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+.metaslider .flex-control-paging li a {
+  background: #eee;
+  background: rgba(204, 203, 203, 0.7) !important;
+}
+
+/* line 107, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_header.scss */
+.metaslider .flex-control-paging li a.flex-active,
+.metaslider .flex-control-paging li a:hover {
+  background: #c1af37 !important;
+  cursor: default;
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_page-content.scss */
+#page .container, footer .container {
+  width: 85%;
+  max-width: 1400px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_page-content.scss */
+  #page .container, footer .container {
+    width: 100%;
+  }
+}
+
+/* line 9, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_page-content.scss */
+.site-content .widget-area {
+  float: right;
+  overflow: hidden;
+  width: 30%;
+}
+
+/* line 15, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_page-content.scss */
+.site-footer {
+  clear: both;
+  width: 70%;
+}
+
+/* line 20, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_page-content.scss */
+.sticky {
+  display: block;
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.footer-nav-1, .footer-nav-2 {
+  padding: 0;
+}
+
+/* line 6, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer {
+  background: #545759;
+  border-bottom: 15px solid #c0ae36;
+  width: 100%;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 6, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer {
+    margin-top: 0;
+    padding: 40px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 16, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .footer-logo {
+    text-align: center;
+  }
+}
+
+/* line 22, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer h4 {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  color: blue;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 28, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .footer-socials.col-md-6 {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 32, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .footer-socials.col-md-6 a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color .2s ease-in-out;
+}
+
+/* line 36, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .footer-socials.col-md-6 a:hover {
+  color: #c0ae36;
+}
+
+/* line 41, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .footer-socials.col-md-6 ul {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 41, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .footer-socials.col-md-6 ul {
+    text-align: center;
+  }
+}
+
+/* line 49, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .footer-socials.col-md-6 li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* line 55, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info {
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 55, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .site-info {
+    text-align: center;
+  }
+}
+
+/* line 61, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info .right {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 61, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .site-info .right {
+    text-align: center;
+  }
+}
+
+/* line 67, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info .left {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 67, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .site-info .left {
+    text-align: center;
+  }
+}
+
+/* line 72, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info .left a {
+  font-size: 14px;
+}
+
+/* line 76, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info p {
+  margin-top: 0;
+  font-size: 14px !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 76, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .site-info p {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 83, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Footer*/
+/* line 106, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer {
+  background: #545759;
+  border-bottom: 15px solid #c0ae36;
+  width: 100%;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 106, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer {
+    margin-top: 0;
+    padding: 40px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 116, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 125, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer a {
+  transition: all .2s ease-in;
+}
+
+/* line 127, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer a:hover {
+  color: #c0ae36;
+}
+
+/* line 132, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .footer-socials.col-md-6 a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color .2s ease-in-out;
+}
+
+/* line 136, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .footer-socials.col-md-6 a:hover {
+  color: #c0ae36;
+}
+
+/* line 140, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .footer-socials.col-md-6 ul {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 140, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .footer-socials.col-md-6 ul {
+    text-align: center;
+  }
+}
+
+/* line 148, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .footer-socials.col-md-6 li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* line 154, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info {
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 154, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .site-info {
+    text-align: center;
+  }
+}
+
+/* line 160, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info .right {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 160, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .site-info .right {
+    text-align: center;
+  }
+}
+
+/* line 166, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info .left {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 166, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .site-info .left {
+    text-align: center;
+  }
+}
+
+/* line 171, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info .left a {
+  font-size: 14px;
+}
+
+/* line 175, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info p {
+  margin-top: 0;
+  font-size: 14px !important;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 175, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .site-footer .site-info p {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 182, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.site-footer .site-info a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 189, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-info {
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 189, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .contact-info {
+    text-align: center;
+    padding-top: 0;
+  }
+}
+
+/* line 195, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-info h4 {
+  color: #c0ae36;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+/* line 202, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-info li {
+  list-style: none;
+}
+
+/* line 205, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-info a {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 205, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .contact-info a {
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+/* line 215, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-info .col-md-6 {
+  padding: 0;
+}
+
+/* line 217, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-info .col-md-6 span {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+  font-weight: normal;
+}
+
+/* line 223, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-info .col-md-6 p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* line 228, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-info ul {
+  margin: 0;
+}
+
+/* line 233, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-inner {
+  position: relative;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* line 237, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-inner p {
+  font-size: 14px !important;
+}
+
+/* line 240, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-inner .col-md-4 {
+  padding-right: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 240, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .contact-inner .col-md-4 {
+    position: static;
+    padding-right: 15px;
+  }
+}
+
+/* line 249, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+.contact-inner .col-md-4 p {
+  color: #ffffff;
+  text-align: right;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 249, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .contact-inner .col-md-4 p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 993px) {
+  /* line 261, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/_footer.scss */
+  .contact-content {
+    width: 62.66667% !important;
+  }
+}
+
+/*Specific Pages*/
+/* line 3, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home .property-intro {
+  display: none !important;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 6, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .home .see-how {
+    margin-top: 145px;
+  }
+}
+
+/* line 11, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* line 15, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 19, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home section.our-properties {
+  padding-top: 0px;
+}
+
+/* line 22, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home .col-md-3 {
+  padding-bottom: 70px;
+  text-align: left !important;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 27, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .home .col-md-3:nth-of-type(odd) {
+    clear: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 22, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .home .col-md-3 {
+    padding: 0px 10% 35px 10%;
+  }
+}
+
+/* line 35, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home .col-md-3 img {
+  width: 100%;
+}
+
+/* line 39, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home .food-philosophy {
+  margin-bottom: 120px;
+}
+
+/* line 42, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home .third-row {
+  margin-top: 50px;
+  clear: both;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 42, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .home .third-row {
+    text-align: center;
+  }
+}
+
+/* line 49, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.home .third-row .location-content {
+  clear: both;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 49, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .home .third-row .location-content {
+    display: inline-block;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 57, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .home .third-row .location {
+    margin-bottom: 0 !important;
+  }
+}
+
+/*Property Location Content*/
+/* line 67, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.banner {
+  max-width: 65%;
+  height: 150px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 67, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .banner {
+    display: block;
+    padding: 60px 0px 15px 0px;
+    max-width: none;
+    margin: 0 auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 81, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .location-content:first-of-type .banner {
+    padding-top: 0px;
+  }
+}
+
+/*Divider*/
+/* line 89, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+.divider {
+  height: 5px;
+  background: #c0ae36;
+  max-width: 70px;
+  margin: 35px 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 89, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_homepage.scss */
+  .divider {
+    margin: 20px auto;
+  }
+}
+
+/* line 1, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+#page {
+  overflow: hidden;
+}
+
+/* line 4, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+P {
+  margin: 1em 0;
+}
+
+/*Header*/
+/* line 8, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+header {
+  padding-top: 35px;
+}
+
+/* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+header .tag-line.col-md-8 {
+  padding-top: 40px;
+  min-height: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 10, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  header .tag-line.col-md-8 {
+    min-height: initial;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 19, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .site-logo {
+    text-align: center;
+  }
+}
+
+/* line 24, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.tag-line.col-md-7 {
+  padding-top: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 24, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .tag-line.col-md-7 {
+    padding-top: 0;
+  }
+}
+
+/* line 32, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.logo_tagline {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 0;
+  font-size: 22px;
+  text-align: right;
+}
+
+@media screen and (max-width: 1048px) and (min-width: 768px) {
+  /* line 32, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .logo_tagline {
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 32, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .logo_tagline {
+    font-size: 20px;
+    position: static;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+}
+
+/* line 51, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.tag-line.col-md-7 {
+  position: relative;
+  min-height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 51, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .tag-line.col-md-7 {
+    min-height: auto;
+  }
+}
+
+/* line 59, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.mobile-show {
+  background-position: center !important;
+  background-size: cover !important;
+  min-height: 300px;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 59, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .mobile-show {
+    display: none;
+  }
+}
+
+/* line 66, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.mobile-show img {
+  display: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 72, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .description {
+    margin: 0 auto !important;
+    width: 90% !important;
+    position: relative !important;
+    top: -20px !important;
+    padding: 20px 20px 40px 20px;
+  }
+}
+
+/* line 81, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.module {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 450px;
+  margin-top: 145px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 81, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .module {
+    background: none !important;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 81, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .module {
+    background: none !important;
+    margin-top: 0px;
+    padding-left: 0;
+  }
+}
+
+/* line 97, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.module h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/* line 101, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.module p:first-of-type {
+  margin-top: 0;
+}
+
+/* line 104, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.module .description {
+  margin: 0 -80px -54px;
+}
+
+/* line 107, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.module .thumbnail-logo {
+  padding: 60px 5% 20px;
+}
+
+/* line 109, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.module .thumbnail-logo img {
+  margin-top: 65px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 107, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .module .thumbnail-logo {
+    margin: 0 !important;
+  }
+}
+
+/*Sections*/
+/* line 119, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+#section-1 {
+  /* margin-top: 35px;
+  @media screen and (max-width: 1024px) and (min-width: 769px){
+    margin-top: 135px!important;
+  }*/
+}
+
+@media screen and (max-width: 768px) {
+  /* line 119, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  #section-1 {
+    margin-top: 0 !important;
+  }
+}
+
+/* line 127, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+#section-1 .description {
+  background-color: #5a3553;
+}
+
+/* line 131, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+#section-2 .description {
+  background-color: #0d607b;
+}
+
+/* line 134, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+#section-3 .description {
+  background-color: #e47b14;
+}
+
+/* line 137, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+#section-4 .description {
+  background-color: #262d49;
+}
+
+/* line 141, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+#section-5 .description {
+  background-color: #3b5890;
+}
+
+/* line 145, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.location {
+  line-height: 1.3;
+}
+
+/* line 148, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.location-content {
+  min-height: 405px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 148, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .location-content {
+    text-align: center;
+    margin-bottom: 0;
+    min-height: auto;
+  }
+}
+
+/* line 159, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.location span {
+  display: block;
+  color: #545759;
+  font-size: 21px;
+  font-family: 'AvenirLTPro-Medium', sans-serif;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 159, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .location span {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 159, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .location span {
+    font-size: 15px;
+  }
+}
+
+/* line 172, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+section.our-properties {
+  padding-top: 150px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 172, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  section.our-properties {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 172, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  section.our-properties {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 180, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  section.our-properties .row {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 180, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  section.our-properties .row {
+    display: flex;
+  }
+}
+
+/* line 188, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+section.our-properties h3 {
+  font-size: 40px;
+  color: #0d607b;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 188, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  section.our-properties h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 188, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  section.our-properties h3 {
+    font-size: 24px;
+  }
+}
+
+/*Section Content*/
+/* line 203, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.thumbnail-logo {
+  background-color: #ffffff;
+  min-height: 176px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 203, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .thumbnail-logo {
+    text-align: center;
+    padding: 0 5% 20px !important;
+    min-height: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 211, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .thumbnail-logo img {
+    max-width: 165px;
+    margin-top: 30px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 217, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .thumbnail-logo h3 {
+    margin: 30px 0px;
+  }
+}
+
+/* line 224, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.description {
+  margin: 0 -80px -54px;
+  padding: 60px;
+  color: #ffffff;
+  -webkit-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+  box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+}
+
+@media screen and (max-width: 768px) {
+  /* line 224, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .description {
+    width: 90% !important;
+    margin: 0 auto !important;
+    position: relative;
+    top: -40px !important;
+    z-index: 1000;
+    padding: 20px 20px 40px 20px;
+  }
+}
+
+/* line 239, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.description .section-title {
+  font-size: 22px;
+  margin-top: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 239, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .description .section-title {
+    font-size: 18px;
+  }
+}
+
+/* line 249, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.description p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 254, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.learn-more {
+  background: transparent;
+  border: 2px solid #ffffff !important;
+  font-size: 16px;
+  padding: 13px 45px 13px 45px;
+  transition: background .2s ease-in-out;
+  margin-bottom: 0;
+  width: 200px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 254, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .learn-more {
+    font-size: 15px;
+  }
+}
+
+/* line 266, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.learn-more:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* line 270, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.learn-more.gray {
+  color: #545759;
+  border-color: #545759 !important;
+}
+
+/**Single Property**/
+/* line 277, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.property-intro {
+  position: relative;
+  min-height: 375px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  /* line 277, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 277, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro {
+    min-height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 277, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 289, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro .container {
+    padding-top: 100px;
+  }
+}
+
+/* line 293, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.property-intro .container h3 {
+  color: #545759;
+  font-size: 70px;
+  font-family: 'AvenirLTPro-Medium', sans-serif;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  /* line 293, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro .container h3 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 293, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro .container h3 {
+    position: static;
+    margin: 20px 0;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 312, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro .container h3 span {
+    display: block;
+  }
+}
+
+/* line 320, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.property-intro .mobile-prop-img {
+  display: block;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 320, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro .mobile-prop-img {
+    display: none;
+    margin-top: 0;
+  }
+}
+
+/* line 327, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.property-intro .mobile-prop-img img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 333, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.prop-img {
+  position: absolute;
+  bottom: -60px;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  z-index: 500;
+  background: url(images/property-img-default.jpg) no-repeat;
+  background-position: center center !important;
+  background-size: cover !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+  box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+  min-height: 400px;
+  max-height: 400px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 333, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .prop-img {
+    display: block;
+    width: 100%;
+    position: static;
+    margin-top: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+/* line 358, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.prop-img img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  max-height: 410px !important;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 367, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .property-intro .prop-img,
+  .home .metaslider {
+    margin-top: 40px;
+  }
+}
+
+/* line 372, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.about-single-prop {
+  background: #5a3553;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 372, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .about-single-prop {
+    padding: 20px;
+  }
+}
+
+/* line 377, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.about-single-prop .container {
+  min-height: 150px;
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 377, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .about-single-prop .container {
+    display: flex;
+    padding: 150px 0;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 385, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .about-single-prop .container .col-md-4 img {
+    width: auto;
+  }
+}
+
+/* line 392, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.about-single-prop .container .col-md-8 h3 {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 392, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .about-single-prop .container .col-md-8 h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+
+/* line 404, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.about-single-prop p {
+  color: #ffffff;
+}
+
+/*** UVA Darden ***/
+/* line 412, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden .top-img {
+  background: url(images/flik-amenities-uva-darden.jpg) no-repeat !important;
+  background-position: center center !important;
+}
+
+/* line 416, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden .about-single-prop {
+  background: #262d49;
+}
+
+/* line 419, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden .prop-amenities .container .col-md-7 {
+  background: #a5acae;
+}
+
+/* line 422, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden .prop-amenities {
+  background: url(images/half-white-half-gray.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-top: 70px solid #ffffff;
+}
+
+/* line 429, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden .testimonials h3,
+.page-uva-darden .gallery h3,
+.page-uva-darden .testimonial span {
+  color: #262d49;
+}
+
+/*** UVA Darden Inn ***/
+/* line 438, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden-inn .top-img {
+  background: url(images/flik-amenities-uva-darden-inn.jpg) no-repeat !important;
+  background-position: center center !important;
+}
+
+/* line 442, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden-inn .about-single-prop {
+  background: #262d49;
+}
+
+/* line 445, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden-inn .prop-amenities .container .col-md-7 {
+  background: #f47500;
+}
+
+/* line 448, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden-inn .prop-amenities {
+  background: url(images/half-white-half-orange.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-top: 70px solid #ffffff;
+}
+
+/* line 455, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-uva-darden-inn .testimonials h3,
+.page-uva-darden-inn .gallery h3,
+.page-uva-darden-inn .testimonial span {
+  color: #262d49;
+}
+
+/*** Valo Park ***/
+/* line 465, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-valo-park .about-single-prop {
+  background: #335894;
+}
+
+/* line 468, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-valo-park .prop-amenities .container .col-md-7 {
+  background: #009bd6;
+}
+
+/* line 471, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-valo-park .prop-amenities {
+  background: url(images/half-white-half-blue.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-top: 70px solid #ffffff;
+}
+
+/* line 479, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-valo-park .testimonials h3,
+.page-valo-park .gallery h3,
+.page-valo-park .testimonial span {
+  color: #335894;
+}
+
+/*Amenities Section*/
+/* line 489, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.prop-amenities {
+  background: url(images/half-white-half-purple.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-top: 70px solid #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 489, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .prop-amenities {
+    background: none !important;
+  }
+}
+
+/* line 498, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.prop-amenities .top-img {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  background: url(images/amenities-stock.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 450px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 498, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .prop-amenities .top-img {
+    position: static;
+    width: 100% !important;
+  }
+}
+
+/* line 515, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.prop-amenities .container .col-md-7 {
+  float: right;
+  min-height: 634px;
+  background: #b499c2;
+  padding: 60px 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 515, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .prop-amenities .container .col-md-7 {
+    float: none;
+    padding: 20px 0;
+    transform: translateY(-40px);
+  }
+}
+
+/* line 525, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.prop-amenities .container .col-md-7 .amenities {
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 525, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .prop-amenities .container .col-md-7 .amenities {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/* line 532, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.prop-amenities .container .col-md-7 .amenities h3 {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* line 537, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.prop-amenities .container .col-md-7 .amenities li {
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 537, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .prop-amenities .container .col-md-7 .amenities li {
+    list-style: none;
+  }
+}
+
+/* line 550, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.testimonials {
+  /* background: url(images/kellogg-watermark.png) no-repeat; */
+  background-position: right 75% !important;
+  margin-bottom: 20px;
+}
+
+/* line 554, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.testimonials .row {
+  padding: 60px 0 120px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 554, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .testimonials .row {
+    padding: 40px 0 40px !important;
+  }
+}
+
+/* line 560, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.testimonials h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #5a3553;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 560, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .testimonials h3 {
+    font-size: 20px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 572, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .testimonial {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 576, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.testimonial:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 579, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .testimonial img {
+    max-width: 50px;
+  }
+}
+
+/* line 584, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.testimonial p {
+  color: #545759;
+}
+
+/* line 587, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.testimonial span {
+  color: #5a3553;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 587, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .testimonial span {
+    font-size: 16px;
+  }
+}
+
+/* line 594, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.testimonial span:before {
+  content: "-";
+  position: relative;
+  top: -3px;
+}
+
+/*Mobile Img*/
+/* line 602, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.mobile-img {
+  display: none;
+}
+
+/* line 606, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.see-how {
+  min-height: 290px;
+  background: url(images/half-aqua-half-blue.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 606, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .see-how {
+    max-height: none;
+    background: #11607a;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+/* line 618, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.see-how .container {
+  display: flex;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 618, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .see-how .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+}
+
+/* line 625, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.see-how .container .col-md-6.left {
+  display: flex;
+  padding: 0;
+  min-height: 290px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 625, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .see-how .container .col-md-6.left {
+    min-height: auto;
+  }
+}
+
+/* line 632, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.see-how .container .col-md-6.left .col-md-10 {
+  background: #ffffff;
+  padding: 50px 60px;
+  color: #545759;
+  min-height: 290px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 632, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .see-how .container .col-md-6.left .col-md-10 {
+    padding: 0;
+    color: #ffffff;
+    background: #11607a;
+    min-height: initial;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 644, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .see-how .container .col-md-6.left .col-md-2 {
+    display: none;
+  }
+}
+
+/* line 649, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.see-how .container .col-md-6.left h3 {
+  font-size: 50px;
+  margin: 0;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 649, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .see-how .container .col-md-6.left h3 {
+    font-size: 30px;
+  }
+}
+
+/* line 659, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.see-how .container .col-md-6.right {
+  color: #ffffff;
+  min-height: 290px;
+  background: #11607a;
+  padding: 40px 60px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 659, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .see-how .container .col-md-6.right {
+    max-height: none;
+    padding: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 668, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .see-how .container .col-md-6.right .mid-text {
+    padding: 0 5px;
+  }
+}
+
+/**Food Philosophy**/
+/* line 685, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-kellogg-conference-hotels .food-philosophy,
+.page-valo-park .food-philosophy,
+.page-uva-darden .food-philosophy,
+.page-uva-darden-inn .food-philosophy,
+.page-valo-park .food-philosophy {
+  background: url(images/food-philosophy-veggies.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  margin-bottom: 185px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 685, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .page-kellogg-conference-hotels .food-philosophy,
+  .page-valo-park .food-philosophy,
+  .page-uva-darden .food-philosophy,
+  .page-uva-darden-inn .food-philosophy,
+  .page-valo-park .food-philosophy {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 695, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-kellogg-conference-hotels .food-philosophy .food-content,
+.page-valo-park .food-philosophy .food-content,
+.page-uva-darden .food-philosophy .food-content,
+.page-uva-darden-inn .food-philosophy .food-content,
+.page-valo-park .food-philosophy .food-content {
+  background: #3b5890;
+}
+
+/* line 701, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.food-philosophy {
+  background: url(images/food-bg.jpg) no-repeat;
+  background-size: cover;
+  min-height: 460px;
+  margin-bottom: 185px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 701, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .food-philosophy {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  /* line 711, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .food-philosophy .container {
+    position: relative;
+    top: 35px;
+    margin-bottom: 60px;
+  }
+}
+
+/* line 717, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.food-philosophy .container {
+  position: relative;
+}
+
+/* line 720, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.food-philosophy .food-content {
+  min-height: 460px;
+  position: absolute;
+  right: 0;
+  background: #c0ae36;
+  bottom: -518px;
+  padding: 60px;
+  -webkit-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+  box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.28);
+}
+
+@media screen and (max-width: 992px) {
+  /* line 720, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .food-philosophy .food-content {
+    position: static;
+    padding: 20px;
+  }
+}
+
+/* line 734, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.food-philosophy .food-content h3 {
+  font-size: 40px;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 734, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .food-philosophy .food-content h3 {
+    font-size: 24px;
+  }
+}
+
+/* line 742, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.food-philosophy .food-content p {
+  color: #ffffff;
+}
+
+/* line 749, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .other-properties {
+  background: url("images/other-props-intro-bg.png") no-repeat;
+  background-size: cover !important;
+}
+
+/* line 752, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .other-properties .description {
+  background: #545759;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 757, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .page-other-properties .prop-thumb-wrap img {
+    width: 100%;
+  }
+}
+
+/* line 763, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .description {
+  min-height: 450px;
+  box-shadow: none;
+  margin-bottom: 0 !important;
+}
+
+/* line 767, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .description img {
+  margin-bottom: 20px;
+}
+
+/* line 771, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-contact {
+  margin-top: 30px;
+}
+
+/* line 773, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 778, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-1 {
+  margin-top: 35px;
+  background: url("images/green-bg.jpg");
+  background-size: 75% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* line 784, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-1 .description {
+  background: #006241;
+}
+
+/* line 788, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-2 {
+  background: url("images/brown-bg.jpg");
+  background-size: 75% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* line 793, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-2 .description {
+  background: #605444;
+}
+
+/* line 798, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-3 {
+  background: url("images/black-bg.jpg");
+  background-size: 75% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* line 803, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-3 .description {
+  background: #252525;
+}
+
+/* line 807, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-4 {
+  background: url("images/burgandy-bg.jpg");
+  background-size: 75% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* line 812, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-4 .description {
+  background: #6f1b11;
+}
+
+/* line 816, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-5 {
+  background: url("images/orange-bg.jpg");
+  background-size: 75% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* line 821, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-5 .description {
+  background: #bf843b;
+}
+
+/* line 825, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-6 {
+  background: url("images/navy-bg.jpg");
+  background-size: 75% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* line 830, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-6 .description {
+  background: #24323a;
+}
+
+/* line 836, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-7 {
+  background: url("images/light-gray-bg.jpg");
+  background-size: 75% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+/* line 841, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .prop-7 .description {
+  background: #8d8f82;
+}
+
+/* line 845, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .see-how {
+  margin-top: 121px;
+}
+
+/* line 848, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .food-philosophy {
+  background: url(images/food-philosophy-veggies.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  margin-bottom: 180px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 848, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .page-other-properties .food-philosophy {
+    margin: 0;
+  }
+}
+
+/* line 858, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-other-properties .food-philosophy .food-content {
+  background: #3b5890;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 865, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .module-content {
+    width: 100%;
+  }
+}
+
+/* line 869, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.module-content h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+/* line 873, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.module-content .thumbnail-logo {
+  padding: 90px 40px 40px 40px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 873, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .module-content .thumbnail-logo {
+    text-align: center;
+  }
+}
+
+/* Kellogg Conference Hotel */
+/* line 884, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-kellogg-conference-hotels .top-img {
+  background: url(images/flik-amenities-kellog-conference-hotel.jpg) no-repeat;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+/*Valo Park*/
+/* line 894, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-valo-park .top-img {
+  background: url(images/flik-amenities-valo-park.jpg) no-repeat;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+/* line 903, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-our-properties .description {
+  background: #545759;
+}
+
+/* line 906, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-our-properties .see-how {
+  margin-top: 120px;
+}
+
+/* line 909, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-our-properties .thumbnail-logo {
+  padding-left: 40px;
+  padding-top: 50px;
+}
+
+/* line 912, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-our-properties .thumbnail-logo h3 {
+  font-size: 50px;
+  line-height: 1;
+}
+
+/*Who We Are, Other Props, Contact-Us Intro*/
+/* line 920, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.intro-content {
+  background: #c0ae36;
+}
+
+/* line 922, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.intro-content .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: 150px 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 920, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .intro-content {
+    text-align: center;
+  }
+}
+
+/* line 935, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.intro-content h3 {
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 935, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .intro-content h3 {
+    font-size: 30px;
+  }
+}
+
+/* line 945, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.intro-content p {
+  color: #ffffff;
+}
+
+/* line 950, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.section-thumbnail {
+  position: absolute;
+  right: 0;
+  background: url("images/flik-food-philosophy-thumb.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 950, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .section-thumbnail {
+    position: static;
+    min-height: 350px;
+    max-height: 350px;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 964, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.section-thumbnail img {
+  display: none !important;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+  /* line 964, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .section-thumbnail img {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 964, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .section-thumbnail img {
+    width: 100%;
+    max-width: 100%;
+    display: none;
+  }
+}
+
+/* line 978, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.main-content-block {
+  position: relative;
+  padding: 120px 0 120px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 978, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .main-content-block {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 984, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .main-content-block .container {
+    padding-left: 0;
+  }
+}
+
+/* line 989, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.main-content-block h3 {
+  color: #545759;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 995, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.main-content-block h4 {
+  color: #c0ae36;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+/* line 1000, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.main-content-block p {
+  color: #545759;
+}
+
+/* line 1006, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-contact-us .main-content-block {
+  padding: 120px 0 0;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1006, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .page-contact-us .main-content-block {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 1013, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-contact-us .section-thumbnail {
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1019, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .page-contact-us .container .property-intro h3 {
+    text-align: center !important;
+  }
+}
+
+/* line 1030, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-promotions .btn-yellow {
+  margin-top: 30px;
+  position: static;
+}
+
+/* line 1034, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-promotions .promotion {
+  margin-bottom: 60px;
+}
+
+/* line 1036, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-promotions .promotion h4, .page-promotions .promotion h3, .page-promotions .promotion h2 {
+  color: #c0ae36;
+}
+
+/* line 1039, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-promotions .promotion p {
+  margin: 5px 0;
+}
+
+/* line 1042, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.page-promotions .promotion li {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1042, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .page-promotions .promotion li {
+    list-style: none;
+  }
+}
+
+/* line 1052, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.promotion-1 .prom-img {
+  background: url("images/2019-cherry-blossom-package_3.jpg") no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+/* line 1060, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member, .promotion {
+  background: url(images/half-yellow-half-gray.jpg) no-repeat;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1060, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member, .promotion {
+    background: none !important;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 1067, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member .container, .promotion .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex !important;
+  }
+}
+
+/* line 1076, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member .staff-img, .promotion .staff-img {
+  padding: 0;
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  /* line 1076, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member .staff-img, .promotion .staff-img {
+    min-height: 500px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1076, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member .staff-img, .promotion .staff-img {
+    background-position: center;
+    background-size: contain;
+    min-height: 350px;
+  }
+}
+
+/* line 1086, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member .staff-img img, .promotion .staff-img img {
+  float: right;
+  height: 100%;
+  max-width: none;
+  display: none !important;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 993px) {
+  /* line 1086, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member .staff-img img, .promotion .staff-img img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1086, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member .staff-img img, .promotion .staff-img img {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1086, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member .staff-img img, .promotion .staff-img img {
+    width: 100%;
+  }
+}
+
+/* line 1102, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member .staff-info, .promotion .staff-info {
+  background: #545759;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 1102, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member .staff-info, .promotion .staff-info {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1102, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member .staff-info, .promotion .staff-info {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+  }
+}
+
+/* line 1115, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member h4, .promotion h4 {
+  color: #ffffff;
+}
+
+/* line 1118, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member span.block, .promotion span.block {
+  color: #c0ae36;
+  font-size: 20px;
+}
+
+/* line 1122, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member p, .promotion p {
+  color: #ffffff;
+}
+
+/* line 1128, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member.staff-1 .container {
+  flex-direction: row;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 1128, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member.staff-1 .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex !important;
+    flex-direction: column;
+  }
+}
+
+/* line 1144, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member.staff-1 .staff-img {
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 1148, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member.staff-1 .staff-info {
+    padding: 40px;
+    padding-right: 0;
+  }
+}
+
+/* line 1157, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member.staff-2 {
+  background: url("images/grey-yellow-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1157, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member.staff-2 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* line 1170, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member.staff-2 .container {
+  flex-direction: row;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 1170, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member.staff-2 .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* line 1186, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member.staff-2 .staff-img {
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1186, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member.staff-2 .staff-img {
+    order: -1;
+  }
+}
+
+/* line 1192, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.staff-member.staff-2 .staff-img img {
+  float: left;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1192, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member.staff-2 .staff-img img {
+    float: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  /* line 1199, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .staff-member.staff-2 .staff-info {
+    padding: 40px;
+    padding-left: 0;
+  }
+}
+
+/*Gallery*/
+/* line 1208, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.gallery {
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1208, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .gallery {
+    margin-bottom: 40px;
+  }
+}
+
+/* line 1214, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.gallery h3 {
+  font-size: 50px;
+  color: #5a3553;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1214, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .gallery h3 {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 1225, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.gallery .rl-gallery-item {
+  margin-bottom: 10px !important;
+  float: left;
+}
+
+@media screen and (min-width: 993px) {
+  /* line 1225, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+  .gallery .rl-gallery-item {
+    width: 30% !important;
+  }
+}
+
+/* line 1231, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.gallery .rl-gallery-item img {
+  width: 100% !important;
+}
+
+/*Error*/
+/* line 1240, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.error404 .error-404 {
+  padding: 130px 0;
+  text-align: center;
+  background: #c0ae36;
+}
+
+/* line 1245, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.error404 h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* line 1249, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.error404 p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* line 1253, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.error404 input[type="submit"] {
+  color: #ffffff !important;
+  background: #545759;
+  width: 140px;
+  height: 40px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px;
+  letter-spacing: .5px;
+  transition: all 0.2s ease-in !important;
+  cursor: pointer;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  transform: translateX(20px);
+}
+
+/* line 1273, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.error404 input[type="search"] {
+  color: #404040;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  font-size: 18px;
+  padding: 3px;
+}
+
+/* line 1283, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.search h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* line 1287, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.search .site-main {
+  padding: 130px 0;
+  text-align: center;
+  background: #c0ae36;
+  color: #ffffff;
+}
+
+/* line 1293, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.search p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* line 1297, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.search input[type="submit"] {
+  color: #ffffff !important;
+  background: #545759;
+  width: 140px;
+  height: 40px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px;
+  letter-spacing: .5px;
+  transition: all 0.2s ease-in !important;
+  cursor: pointer;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  transform: translateX(20px);
+}
+
+/* line 1317, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.search input[type="search"] {
+  color: #404040;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  font-size: 18px;
+  padding: 3px;
+}
+
+/* line 1326, C:/Users/Oscar Manata/Desktop/Projects/Mid-Atlantic/flik/sass/layout/specific-pages/_landingpage.scss */
+.row:before, .row:after {
+  display: table-row !important;
+}
+
+/*@import "layout/specific-pages/gallery"; Add more as needed */
+
+/*# sourceMappingURL=../style.map */

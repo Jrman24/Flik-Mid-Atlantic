@@ -1,0 +1,97 @@
+
+.home{
+	.property-intro{
+		display: none!important;
+	}
+	  .see-how{
+		@media screen and (min-width: 993px){
+		  margin-top: 145px;
+		}
+	}	
+	h2 {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	h4 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	section.our-properties {
+		padding-top: 0px;
+	}
+	.col-md-3 {
+		padding-bottom: 70px;
+		text-align: left !important;
+		
+		@media screen and (max-width: 992px){
+			&:nth-of-type(odd) {
+				clear: left;
+			}
+		}	
+		@media screen and (max-width: 767px){
+			padding: 0px 10% 35px 10%;
+		}
+		
+		img {
+			width: 100%;
+		}
+	}
+	.food-philosophy {
+		margin-bottom: 120px;
+	}
+	.third-row{
+		margin-top: 50px;
+		clear: both;
+		overflow: hidden;
+		@media screen and (min-width: 993px){
+			text-align: center;
+		}
+		.location-content{
+			clear: both;
+			overflow: hidden;
+			@media screen and (min-width: 993px){
+				display: inline-block;
+				float: none;
+			}
+		}
+		.location{
+			@media screen and (max-width: 992px){
+				margin-bottom: 0!important;
+			}
+		}
+	}
+}
+
+
+/*Property Location Content*/
+ .banner{
+	max-width: 65%;
+   height: 150px;
+   display: table-cell;
+   vertical-align: bottom;
+	
+   @media screen and (max-width: 992px){
+		display: block;
+		padding: 60px 0px 15px 0px;
+		max-width: none;
+		margin: 0 auto;
+		height: auto;	
+	}
+}
+.location-content:first-of-type .banner {
+	@media screen and (max-width: 992px){
+		padding-top: 0px;
+	}
+}
+
+
+/*Divider*/
+.divider{
+    height: 5px;
+    background: #c0ae36;
+    max-width: 70px;
+    margin: 35px 0;
+   @media screen and (max-width: 992px){
+     margin: 20px auto;
+   }
+}

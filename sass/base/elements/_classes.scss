@@ -1,0 +1,74 @@
+/* Color Classes */
+
+.blue {
+	color: #0d607b;
+}
+.dark_blue {
+	color: $color_darden_dark_blue !important;
+}
+.bg_dark_blue {
+	background-color: $color_darden_dark_blue !important;
+}
+
+
+/*typography*/
+.bold-inline{
+	display: inline!important;
+	font-weight: 900;
+}
+
+
+/* Positioning and spacing */
+.no-margin {
+	margin: 0px;
+}
+.full-height {
+	height: 100%;
+}
+.center {
+	text-align: center;
+}
+.background-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.block{
+	display: block;
+	@media screen and (max-width: 992px){
+		display: inline-block;
+		margin-right: 10px;
+	}
+}
+
+.drop-shadow{
+	-webkit-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.3);
+	box-shadow: -2px 8px 24px -1px rgba(0, 0, 0, 0.3);
+}
+
+#colophon .container p.small-text{
+	font-size: 14px!important;
+}
+
+/* Mobile */
+.mobile-show {
+	display: none;
+	
+	@media screen and (max-width: 992px) {
+		display: block !important;
+	}
+}
+.mobile-hide {
+	display: block !important;
+	
+	@media screen and (max-width: $break-mobile) {
+		display: none !important;
+	}
+}
+
+

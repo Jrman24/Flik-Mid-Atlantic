@@ -1,0 +1,73 @@
+/* Colors */
+$color__background-body: #fff;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ccc;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__link: #545759;
+$color__link-visited: #545759;
+$color__link-hover: #545759;
+$color__text-main: #545759;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+
+$size__site-sidebar: 30%;
+$size__site-main: 70%;
+
+/* Typography */
+$font__main: sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+
+
+/* Custom Colors */
+$color_darden_dark_blue: #262d49;
+
+
+/* Responsive */
+$break-small: 320px;
+$break-mobile: 768px;
+$break-medium: 1024px;
+$break-large: 1200px;
+
+
+
+/* Other */
+.center {
+	text-align: center;
+}
+
+/* Learn-more */
+.learn-more {
+	padding: 13px 45px 13px 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: 86% center;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+
+	&:hover,
+	&:focus,
+	&:visited {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
